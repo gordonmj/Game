@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,7 +6,6 @@
 </head>
 <body>
 <?php
-session_start();
 $cash = intval($_SESSION["cash"]);
 $facebets = array ("Ace"=>0,"Two"=>0,"Three"=>0,"Four"=>0,"Five"=>0,"Six"=>0,"Seven"=>0,"Eight"=>0, "Nine"=>0,"Ten"=>0,"Jack"=>0,"Queen"=>0,"King"=>0);
 $suitbets = array("Spade"=>0,"Club"=>0,"Heart"=>0,"Diamond"=>0);
