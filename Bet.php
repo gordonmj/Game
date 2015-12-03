@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,7 +6,6 @@
 </head>
 <body>
 <?php
-session_start();
 $cash = intval($_SESSION['cash']);
 $deck = $_SESSION['deck'];
 for($i=1;$i<=4;$i++){
