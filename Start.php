@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +13,6 @@ Payouts for the bets are (roughly) proportional to the probability.</p>
 <p>Creator: Michael Gordon, Adjunct Lecturer, Queens College, CUNY</p>
 <p>You start with $100.</p>
 <?php
-session_start();
 $suits = array ("Spade", "Heart", "Diamond", "Club");
 
 $faces = array ("Ace", "Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten", "Jack", "Queen", "King");
